@@ -1,0 +1,20 @@
+.container {
+  background-color: black;
+}
+.contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contents ul {
+  display: flex;
+  padding-block: 2em;
+}
+.contents li {
+  text-transform: uppercase;
+  font-family: var(--font);
+  font-size: 0.7em;
+  font-weight: bold;
+  color: var(--clr-white);
+  padding-inline: 1.8em;
+}

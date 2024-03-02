@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/LAUNCHES_Starlink_SLC_40_Desktop_f9768cabd4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100dvh;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 100%;
+  padding-bottom: 8.3em;
+  text-transform: uppercase;
+  color: var(--clr-white);
+  font-family: var(--font);
+}
+.content h1 {
+  font-size: 3rem;
+  padding-top: 0.2em;
+  padding-bottom: 0.8em;
+}
+.content h3 {
+  font-weight: normal;
+}
+.btn {
+  width: 10em;
+  height: 3.5em;
+  border: 2px solid var(--clr-white);
+}
+.btn button:hover {
+  background-color: var(--clr-white);
+  color: black;
+}
+.btn button {
+  width: 100%;
+  height: 100%;
+  appearance: none;
+  border: none;
+  background: none;
+  color: var(--clr-white);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: var(--font);
+}
+@media (max-width: 970px) {
+  .container {
+    background-position: center;
+  }
+}
